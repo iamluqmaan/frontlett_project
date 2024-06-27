@@ -53,7 +53,7 @@ const FeaturedIn = ({ publications }) => {
           </Slider>
         </div>
         <div className="flex flex-col items-center py-10 space-y-10">
-          <h1 className="text-3xl md:text-5xl text-center">Let's build companies that <br/> help everyone succeed</h1>
+          <h1 className="text-3xl md:text-5xl text-center">Let us build companies that <br/> help everyone succeed</h1>
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
             <Link href="/contact" passHref className="font-bold py-2 px-4 rounded-full ring-1 ring-neutral-700 text-neutral-800 text-center">SINC With Us
             </Link>

@@ -9,7 +9,7 @@ const Builders = () => {
     <div className="relative flex justify-center flex-col items-center bg-gray-100 pt-10 px-4 md:px-8">
       <div className="text-center py-10 px-8 bg-white rounded-lg max-w-2xl w-full">
         <blockquote className="text-lg font-semibold text-gray-800">
-          "Nigeria and Africa has a massive network effect that have not be fully utilized. With Nigerians/Africans in every country and territory of the world, we can scale an African business to 100+ countries in few weeks"
+          <>"</>Nigeria and Africa has a massive network effect that have not be fully utilized. With Nigerians/Africans in every country and territory of the world, we can scale an African business to 100+ countries in few weeks,<>"</>
         </blockquote>
         <cite className="block mt-4 text-sm text-gray-600 not-italic">
           <p className='font-semibold text-black'>Daniel Izeghs Oratokhai</p>
@@ -38,8 +38,7 @@ const Builders = () => {
             <p className="text-sm mb-4">
               Raise $5k, $25k, $50k and $125k in 4 bootstrap deals within 12 months
             </p>
-            <Link href="/learn-more" passHref className="text-black underline font-bold">Learn More &rarr;
-            </Link>
+            <Link href="/learn-more" passHref className="text-black underline font-bold">Learn More &rarr;</Link>
           </div>
         </div>
       </div>
