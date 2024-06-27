@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
-import portfolio from '../../../public/assets/portfolio.png';
+import portfolio from '../../../public/assets/Portfolio.png';
 import allCompanies from '../../../public/assets/allCompanies.png'; 
 
 const StudioPortfolio = () => {
