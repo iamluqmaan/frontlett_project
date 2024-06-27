@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import polygon1 from '../../../public/assets/PolygonOne.png';
-import polygon2 from '../../../public/assets/polygonTwo.png';
-import polygon3 from '../../../public/assets/polygonThree.png';
+
 
 const Hypothesis = () => {
   return (
@@ -13,7 +11,7 @@ const Hypothesis = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="p-6 space-y-4 bg-white rounded shadow">
             <Image 
-                src={polygon1}
+                src="/assets/polygonOne.png"
                 width={40}
                 height={40}
             />
@@ -21,7 +19,7 @@ const Hypothesis = () => {
           </div>
           <div className="p-6 space-y-4 bg-white rounded shadow">
             <Image 
-                src={polygon2}
+                src="/assets/polygonTwo.png"
                 width={40}
                 height={40}
             />
@@ -29,7 +27,7 @@ const Hypothesis = () => {
           </div>
           <div className="p-6 space-y-4 bg-white rounded shadow">
             <Image 
-                src={polygon3}
+                src="/assets/polygonThree.png"
                 width={40}
                 height={40}
             />
